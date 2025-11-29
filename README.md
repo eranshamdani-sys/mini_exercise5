@@ -21,3 +21,6 @@ Task 6:
 This code does the same as the first code but bigger, instead of 2 threads for 10,000 we use 10 threads for 100,000,000.
 We also print the time it took, which is around 20-30 miliseconds.
 
+Task 7:
+Now we add to this code the synchronized(this) and we can see how much longer we have to wait.
+We now get the right output of 10*10,000,000=100,000,000. But now it take around 4000 miliseconds (which even humans can notice as 4 seconds)
