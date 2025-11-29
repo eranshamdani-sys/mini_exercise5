@@ -16,3 +16,8 @@ The keyword synchronized makes it so only one thread can run the method at any g
 
 Task 5:
 synchronized(this) acts to help synchronization. When we use it on a block of code, that block can be run only from one thread in every specific instance of the class at any given time.
+
+Task 6:
+This code does the same as the first code but bigger, instead of 2 threads for 10,000 we use 10 threads for 100,000,000.
+We also print the time it took, which is around 20-30 miliseconds.
+
