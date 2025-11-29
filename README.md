@@ -13,3 +13,6 @@ So when the OS gives the CPU back to the first thread it puts in bar the old bar
 
 Task 4:
 The keyword synchronized makes it so only one thread can run the method at any given time.
+
+Task 5:
+synchronized(this) acts to help synchronization. When we use it on a block of code, that block can be run only from one thread in every specific instance of the class at any given time.
